@@ -1,0 +1,28 @@
+# 自动识别文本文件并统一换行符
+* text=auto
+
+# 源码保持 LF
+*.c    text eol=lf
+*.h    text eol=lf
+*.cpp  text eol=lf
+*.hpp  text eol=lf
+*.s    text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+*.yml  text eol=lf
+
+# 二进制文件不做换行符转换
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.bmp  binary
+*.pdf  binary
+*.docx binary
+*.doc  binary
+*.xlsx binary
+*.pptx binary
+*.zip  binary
+*.hex  binary
+*.bin  binary
+*.elf  binary
