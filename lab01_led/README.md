@@ -52,9 +52,11 @@ void delay(uint32_t i)
 ## 五、实验现象
 
 上电后，LED1 ~ LED8 依次点亮并循环，流水间隔约 1 秒；
-任意时刻只有一颗 LED 处于点亮状态。
+任意时刻只有一颗 LED 处于点亮状态。实际现象如下图：
 
-> 现象截图请放入 `screenshots/` 目录。
+| 实验现象 1 | 实验现象 2 | 实验现象 3 |
+| --- | --- | --- |
+| ![现象1](screenshots/screenshot_01.jpg) | ![现象2](screenshots/screenshot_02.jpg) | ![现象3](screenshots/screenshot_03.jpg) |
 
 ## 六、问题与解决
 

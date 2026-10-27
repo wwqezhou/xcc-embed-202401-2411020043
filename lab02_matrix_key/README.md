@@ -66,8 +66,7 @@ GPIOF->ODR = ~((KeyVal / 10 << 4) + KeyVal % 10); /* BCD 显示 */
 | --- | --- |
 | ![现象1](screenshots/screenshot_01.jpg) | ![现象2](screenshots/screenshot_02.jpg) |
 | ![现象3](screenshots/screenshot_03.jpg) | ![现象4](screenshots/screenshot_04.jpg) |
-| ![现象5](screenshots/screenshot_05.jpg) | ![现象6](screenshots/screenshot_06.jpg) |
-| ![现象7](screenshots/screenshot_07.jpg) | ![现象8](screenshots/screenshot_08.jpg) |
+| ![现象5](screenshots/screenshot_05.jpg) | |
 
 ## 六、问题与解决
 
