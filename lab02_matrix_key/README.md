@@ -58,10 +58,16 @@ GPIOF->ODR = ~((KeyVal / 10 << 4) + KeyVal % 10); /* BCD 显示 */
 
 ## 五、实验现象
 
-按下任意按键后，PF 口 LED 以 BCD 码显示对应键值（1~12），
-例如按下第 2 行第 3 列显示 "07"，松开后保持最后一次键值。
+程序下载运行后，按下 3×4 矩阵键盘上的不同按键，PF0~PF7 指示 LED 点亮组合随之变化，
+以 BCD 码显示当前键值（1~12）；松开按键后保持最后按下的键值。
+下图为按下不同按键时板载 LED 指示的实际现象：
 
-> 现象截图请放入 `screenshots/` 目录。
+| 按键现象 1 | 按键现象 2 |
+| --- | --- |
+| ![现象1](screenshots/screenshot_01.jpg) | ![现象2](screenshots/screenshot_02.jpg) |
+| ![现象3](screenshots/screenshot_03.jpg) | ![现象4](screenshots/screenshot_04.jpg) |
+| ![现象5](screenshots/screenshot_05.jpg) | ![现象6](screenshots/screenshot_06.jpg) |
+| ![现象7](screenshots/screenshot_07.jpg) | ![现象8](screenshots/screenshot_08.jpg) |
 
 ## 六、问题与解决
 
